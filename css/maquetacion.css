@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background-color: lightpink;
+    margin: 0.5em auto;
+}
+#header{
+    height: 13%;
+    background-color: lightcoral;
+    margin: 1em auto;
+    border-radius: 1em;
+}
+#nav{
+    height: 8%;
+    background-color: plum;
+    margin: 0.5em auto;
+    border-radius: 1em;
+}
+#contenido{
+    height: 60%;
+    margin: 1em;
+    background-color: lightpink;
+    border-radius: 1em;
+}
+#formulario{
+    height: 100%;
+    width: 75%;
+    background-color: lightblue;
+    border-radius: 1em;
+    float: left;
+}
+#aside{
+    height: 100%;
+    width: 25%;
+    background-color: lightgreen;
+    border-radius: 1em;
+    float: right;
+}
