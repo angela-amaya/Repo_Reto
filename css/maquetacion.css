@@ -4,11 +4,13 @@
 }
 #contenedor{
     width: 1200px;
-    height: 1000px;
+    height: 1150px;
     background-color: lightpink;
     margin: 0.5em auto;
 }
 #header{
+    text-align: center;
+   
     height: 13%;
     background-color: lightcoral;
     margin: 1em auto;
@@ -21,22 +23,45 @@
     border-radius: 1em;
 }
 #contenido{
-    height: 60%;
+    height: 70%;
     margin: 1em;
     background-color: lightpink;
     border-radius: 1em;
 }
 #formulario{
+    
     height: 100%;
     width: 75%;
     background-color: lightblue;
     border-radius: 1em;
     float: left;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #aside{
+    text-align: center;
     height: 100%;
     width: 25%;
     background-color: lightgreen;
     border-radius: 1em;
     float: right;
+    
+}
+#footer{
+    text-align: center;
+    height: 4%;
+    background-color: mediumorchid;
+    border-radius: 1em;
+    
+
+}
+h2{
+    color:maroon;
+    text-align: center;
+
+}
+img{
+    display:block ;
+    margin: auto;
 }
